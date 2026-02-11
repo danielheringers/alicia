@@ -19,3 +19,4 @@ Ordem cronológica das tarefas:
 15. `15-arquitetura-modular-de-persona-da-alicia.md`
 16. `16-identity-lock-e-state-machine-de-contexto.md`
 17. `17-commit-e-push-das-alteracoes.md`
+18. `18-configuracao-remoto-origin-e-push-master.md`
