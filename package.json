@@ -1,0 +1,32 @@
+{
+  "name": "alicia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/interfaces/tui/main.tsx",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/interfaces/tui/main.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "history:new": "node scripts/new-history-entry.mjs",
+    "context:append": "node scripts/context-tokens.mjs append",
+    "context:report": "node scripts/context-tokens.mjs report"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.4.6",
+    "dotenv": "^17.2.4",
+    "ink": "^5.2.1",
+    "ink-text-input": "^6.0.0",
+    "js-tiktoken": "^1.0.21",
+    "p-queue": "^8.0.1",
+    "react": "^18.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/react": "^18.3.20",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+}
